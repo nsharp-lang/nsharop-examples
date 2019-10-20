@@ -1,0 +1,13 @@
+{
+    "dependencies": {
+        "runtime": {
+            "Standard": {
+                "version": "1.0.0"
+            }
+        }
+    },
+    "name": "example-4",
+    "readme": "./README.md",
+    "type": "executable",
+    "version": "1.0.0"
+}
