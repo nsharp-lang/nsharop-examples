@@ -1,0 +1,11 @@
+import "Standard.Int32"; /* Import Int32 Type */
+import "Standard.Utf8String"; /* Import Utf8String Type */
+
+public static class Main {
+
+    public static int Main(string args[]) { 
+        /* int is alias of Int32 / string is alias of Utf8String */
+        return 0;
+    }
+
+}

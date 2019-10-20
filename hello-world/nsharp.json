@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "build": {},
+        "runtime": {
+            "Standard": {
+                "version": "1.0.0"
+            }
+        },
+        "test": {}
+    },
+    "licence": "./LICENCE.txt",
+    "name": "hello-world",
+    "readme": "./README.md",
+    "type": "executable",
+    "version": "1.0.0"
+}
