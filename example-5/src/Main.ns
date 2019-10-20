@@ -1,4 +1,3 @@
-import "Standard.Float";
 import "Standard.Int32";
 import "Standard.IO.Console";
 import "Standard.Threading.Task";
@@ -7,9 +6,8 @@ import "Standard.Utf8String";
 public static class Main {
 
     public static async Task<int> Main(string args[]) {
-        var line = await Console.ReadLineAsync();
-        var float = Float.Parse(line);
-        await Console.WriteLineAsync(float);
+        var utf8Char = await Console.ReadAsync();
+        await Console.WriteLineAsync(utf8Char);
         return 0;
     }
 

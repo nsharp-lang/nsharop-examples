@@ -1,5 +1,5 @@
-import "Standard.Int32"; /* Import Int32 Type */
-import "Standard.Utf8String"; /* Import Utf8String Type */
+import "Standard.Int32";
+import "Standard.Utf8String"; 
 
 public static class Main {
 
