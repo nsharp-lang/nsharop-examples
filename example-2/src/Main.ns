@@ -1,0 +1,12 @@
+import "Standard.Int32";
+import "Standard.Utf8String";
+import "Standard.IO.Console";
+
+public static class Main {
+
+    public static async Task<int> Main(string args[]) { /*  */
+        await Console.WriteLineAsync("Hello World");
+        return 0;
+    }
+
+}

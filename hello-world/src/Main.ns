@@ -1,6 +1,0 @@
-import { WriteLineAsync } from "Standard.Console";
-
-public static async Task<int> Main(string args[]) {
-    await Console.WriteLineAsync("Hello World");
-    return 0;
-}
