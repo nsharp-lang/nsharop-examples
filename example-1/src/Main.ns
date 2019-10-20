@@ -8,6 +8,11 @@ import "Standard.String"; /* Alias of Utf8String */
 */
 public static class Main {
 
+    /* 
+        By default "args" is readonly. 
+        The caller is in charge of free the memory of "args"
+        The caller is in charge of free the memory of the returned value
+    */
     public static int Main(String[] args) {
         return 0;
     }
