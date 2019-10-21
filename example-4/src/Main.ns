@@ -1,12 +1,12 @@
 import "Standard.Float";
-import "Standard.Int32";
+import "Standard.Int";
 import "Standard.IO.Console";
+import "Standard.String";
 import "Standard.Threading.Task";
-import "Standard.Utf8String";
 
 public static class Main {
 
-    public static async Task<int> Main(string args[]) {
+    public static async Task<Int> Main(String args[]) {
         var line = await Console.ReadLineAsync();
         var float = Float.Parse(line);
         await Console.WriteLineAsync(float);
