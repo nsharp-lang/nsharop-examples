@@ -1,0 +1,19 @@
+import "Standard.Int32";
+import "Standard.IO.Console";
+import "Standard.Threading.Task";
+import "Standard.Utf8String";
+
+public static class Main {
+
+    public static async Task<Int32> Main(Utf8String args[]) {
+        var number1 = Int32.Parse( await Console.ReadLineAsync() );
+        var number2 = Int32.Parse( await Console.ReadLineAsync() );
+        await Console.WriteLineAsync(number1 + number2);
+        await Console.WriteLineAsync(number1 - number2);
+        await Console.WriteLineAsync(number1 * number2);
+        await Console.WriteLineAsync(number1 / number2);
+        await Console.WriteLineAsync(number1 % number2);
+        return 0;
+    }
+
+}
