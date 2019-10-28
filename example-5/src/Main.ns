@@ -5,7 +5,7 @@ import "Standard.Utf8String";
 
 public static class Main {
 
-    public static async Task<int> Main(string args[]) {
+    public static async Task<Int32> Main(Utf8String args[]) {
         var utf8Char = await Console.ReadAsync();
         await Console.WriteLineAsync(utf8Char);
         return 0;

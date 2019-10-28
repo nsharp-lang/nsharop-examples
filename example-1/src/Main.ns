@@ -1,5 +1,5 @@
-import "Standard.Int"; /* Alias of Int32 */
-import "Standard.String"; /* Alias of Utf8String */
+import "Standard.Int32";
+import "Standard.Utf8String";
 
 /* 
     The Entrypoint of an executable must be in a file called "Main.ns"
@@ -13,7 +13,7 @@ public static class Main {
         The caller is in charge of free the memory of "args"
         The caller is in charge of free the memory of the returned value
     */
-    public static Int Main(String[] args) {
+    public static Int32 Main(Utf8String[] args) {
         return 0;
     }
 
